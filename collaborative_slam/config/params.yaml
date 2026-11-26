@@ -1,0 +1,10 @@
+robots:
+  name: 'burger'
+  x_pose: 0.2
+  y_pose: 0.3
+  z_pose: 0.01
+  yaw: 0.0
+  rviz view: "false"
+  urdf_path: '/home/arz-1028/Desktop/Balasubramaniyan/ros2_ws/src/collaborative_slam/urdf/turtlebot3_burger.urdf'
+  sdf_path: ''
+  nav_param_path: ''

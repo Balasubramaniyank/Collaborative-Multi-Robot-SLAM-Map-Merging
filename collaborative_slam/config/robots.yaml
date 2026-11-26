@@ -1,0 +1,32 @@
+robots:
+  - name: burger
+    x_pose: "0.0"
+    y_pose: "-8.0"
+    z_pose: 0.01
+    enabled: true
+  - name: burger_2
+    x_pose: "1.0"
+    y_pose: "-8.0"
+    z_pose: 0.01
+    enabled: true 
+  - name: burger_3
+    x_pose: "2.0"
+    y_pose: "-8.0"
+    z_pose: 0.01
+    enabled: true   
+  - name: waffle
+    x_pose: "-1.0"
+    y_pose: "-8.0"
+    z_pose: 0.01
+    enabled: true
+  - name: waffle_2
+    x_pose: "-2.0"
+    y_pose: "-8.0"
+    z_pose: 0.01
+    enabled: true
+  - name: waffle_3
+    x_pose: "-3.0"
+    y_pose: "-8.0"
+    z_pose: 0.01
+    enabled: true
+ 

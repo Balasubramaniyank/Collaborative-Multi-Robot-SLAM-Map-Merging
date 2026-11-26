@@ -1,0 +1,17 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    # Broadcasts the current height to ROS 2
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    # The controller that accepts our target height commands
+    lift_position_controller:
+      type: position_controllers/JointGroupPositionController
+
+# Configuration for our specific controller
+lift_position_controller:
+  ros__parameters:
+    joints:
+      - lift_joint
